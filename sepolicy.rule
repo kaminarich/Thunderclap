@@ -1,0 +1,6 @@
+allow magisk_init init_service stop
+allow magisk_init init_service start
+allow magisk_init property_service set
+allow magisk_init sysfs_thermal_dir write
+allow magisk_init sysfs_thermal_dir open
+allow magisk_init sysfs_thermal_dir getattr

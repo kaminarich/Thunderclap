@@ -1,0 +1,8 @@
+# Overriding vendor.thermal-hal-2-0.mtk.rc to disable service
+
+on early-init
+    # Empty on purpose
+
+service vendor.thermal-hal-2-0.mtk /vendor/bin/hw/vendor.thermal-hal-2-0.mtk
+    disabled
+    oneshot
